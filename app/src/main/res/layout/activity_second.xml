@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/colorPrimary"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".second">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="101dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="188dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="10dp"
+        android:fadingEdge="horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:scrollbars="horizontal"
+        android:text=" Welcome!"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="188dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="141dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginBottom="10dp"
+                android:foregroundGravity="bottom|center_horizontal"
+                android:gravity="bottom|center|center_horizontal"
+                android:text="Coded by team Ytosko "
+                android:textColor="@color/bckg"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="43dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/fs"
+        android:layout_width="289dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Fire\nService"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/strokeColor"
+        android:textSize="20dp" />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="51dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/e1"
+        android:layout_width="289dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center_horizontal"
+        android:text=" Emergency \n999"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/strokeColor"
+        android:textSize="20dp" />
+
+</LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

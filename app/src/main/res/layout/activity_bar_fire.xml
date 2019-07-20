@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".bar_fire">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="733dp">
+
+        <LinearLayout
+            android:id="@+id/container10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="126dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="291dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="141dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="141dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Choose to call your desired fire station"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@color/strokeColor"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:theme="@style/Animation.AppCompat.Dialog"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/brg"
+                    android:layout_width="291dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="141dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="141dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/x_call"
+                    android:text="barguna" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bari"
+                    android:layout_width="291dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="141dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="141dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/x_call"
+                    android:text="Barisal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ptu"
+                    android:layout_width="291dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="141dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="141dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/x_call"
+                    android:text="Potuakhali" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/prz3"
+                    android:layout_width="291dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="141dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="141dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/x_call"
+                    android:text="pirojepur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/jhl"
+                    android:layout_width="291dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="141dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="141dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/x_call"
+                    android:text="Jhalkathi" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bhl"
+                    android:layout_width="291dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="141dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="141dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/x_call"
+                    android:text="Bhola" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
